@@ -6,6 +6,12 @@ The objective of this model is to streamline the evaluation process of radiology
 
 To finetune the model on custom data, follow the instructions on this page: https://github.com/haotian-liu/LLaVA/blob/main/docs/Finetune_Custom_Data.md
 
+### Train
+
+Update file paths to data and images, as well as training parameters, and run
+`sh LLaVA/scripts/v1_5/finetune_task_lora.sh`
+
+
 ### Evaluation
 #### 1. Generate responses
 
