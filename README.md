@@ -13,12 +13,16 @@ Run inference on a single X-ray image
 `python3 -m llava.serve.cli —model-path path_to_model —model-base path_to_llava-v1.5-13b —image-file path_to_img_folder/*.jpg`
 
 Run inference on a set of data
-```python3 LLaVA/llava/eval/model_vqa.py \
+```python
+
+python3 LLaVA/llava/eval/model_vqa.py \
     --model-path path_to_trained_model \
     --model-base llava-v1.5-13b \
     --question-file question_prompt.jsonl \
     --image-folder path_to_image_data \
-    --answers-file validation_responses.jsonl```
+    --answers-file validation_responses.jsonl
+
+```
 
 #### 2. Evaluate the generated responses
 
