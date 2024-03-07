@@ -33,6 +33,7 @@ python3 LLaVA/llava/eval/model_vqa.py \
 #### 2. Evaluation of Diagnostic accuracy of LLaVA
 
 **LLM - ChatGPT 3.5 Turbo:**
+
 we used OpenAI's ChatGPT 3.5 Turbo model API to extract the different disease entities from both radiologist and LLaVA reports. This approach allows us to assess LLaVA's performance and accuracy through a comparative analysis by disease. The 6 disease entities we focused on are:
 - Pneumothorax
 - Pneumonia
@@ -45,4 +46,4 @@ The table below shows the performance results of the baseline model and the fina
 ![Baseline vs. Final Model](Plots/f1_table.png)
 
 
-**NLP Approach**
+**NLP Approach:**
